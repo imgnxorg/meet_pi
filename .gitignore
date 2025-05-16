@@ -1,0 +1,49 @@
+# Compiled binaries and package builds
+*.o
+*.so
+*.a
+*.out
+*.pyc
+*.class
+*.log
+*.swp
+
+# SSH keys / secrets
+*.pem
+*.pub
+*.key
+id_*
+authorized_keys
+
+# Device-specific files
+/boot/
+/etc/hostname
+/etc/hosts
+/etc/machine-id
+/etc/ssh/*_key
+/etc/wpa_supplicant/wpa_supplicant.conf
+
+# Build artifacts
+*.img
+*.xz
+*.zip
+*.tar
+*.deb
+*.iso
+*.img.gz
+
+# Python/Rust/C builds
+__pycache__/
+/target/
+/build/
+/dist/
+/node_modules/
+
+# Secrets and credentials
+.env
+*.secret
+*.bak
+
+# System-specific files
+.DS_Store
+Thumbs.db
