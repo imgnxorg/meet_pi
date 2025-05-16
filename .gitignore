@@ -47,3 +47,10 @@ __pycache__/
 # System-specific files
 .DS_Store
 Thumbs.db
+
+# Secrets and config
+wpa_supplicant.conf
+ssh
+*.pem
+*.key
+*.crt
